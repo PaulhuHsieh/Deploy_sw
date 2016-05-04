@@ -6,11 +6,13 @@
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
+#include<ctype.h>
 
 #define SWNUM 20
 #define CTRLNUM 3
 
 char sw_ID[SWNUM][50], ctrl[CTRLNUM][50];
+void exec_tcpdump(int sw_ctrl_port[][SWNUM]);
 void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clone, int sw_ctrl_port[][SWNUM], int layer )
 {
 	int j; 
@@ -194,23 +196,82 @@ int main(int argc, char *argv[] )
 		strcpy( sw_ID_clone, sw_ID[i] );
 		implement_sw( i, sw_ID_clone, l1_ctrl_clone, "\0"  ,sw_ctrl_port, 1  );
 		//** End of set sw[i]'s 1st controller **
+	}
 
+	for( i = 0 ; i < SWNUM ; i++ )
+	{
 		//** Set switch's 2nd controller ** 
 		strcpy( l2_ctrl_clone , ctrl[ sw_ctrl_port[2][i] - 1 ] ); // ** sw_ctrl mapping is 1,2,3 but array index is 0,1,2
+		strcpy( l1_ctrl_clone , ctrl[ sw_ctrl_port[0][i] - 1 ] ); // ** sw_ctrl mapping is 1,2,3 but array index is 0,1,2
+		strcpy( sw_ID_clone, sw_ID[i] );
 		implement_sw( i, sw_ID_clone, l1_ctrl_clone, l2_ctrl_clone, sw_ctrl_port, 3 );
 		//** End of set sw[i]'s 2nd controller **		
-	}	
+	}
 	//** End of set sws' controller **
-
-
+	
 	for( i = 0 ; i < SWNUM ; i++ )
-		printf("%d ", sw_ctrl_port[1][i] );
+		printf("%d\t", sw_ctrl_port[0][i] );
 	printf("\n");
 	for( i = 0 ; i < SWNUM ; i++ )
-		printf("%d ", sw_ctrl_port[3][i] );
+		printf("%d\t", sw_ctrl_port[1][i] );
+	printf("\n");
+	for( i = 0 ; i < SWNUM ; i++ )
+		printf("%d\t", sw_ctrl_port[2][i] );
+	printf("\n");
+	for( i = 0 ; i < SWNUM ; i++ )
+		printf("%d\t", sw_ctrl_port[3][i] );
 	printf("\n");
 	printf("done\n");
+
+	exec_tcpdump(sw_ctrl_port);
 	return 0;
+}
+
+void exec_tcpdump( int sw_ctrl_port[][SWNUM] )
+{
+	int i;
+	char argv[SWNUM][100];
+	
+
+	sprintf(argv[0], "sudo");
+	sprintf(argv[1], "./tcpdump.sh");
+	for( i = 0 ; i < SWNUM+2 ; i++ )
+	{
+		 sprintf(argv[i+2], "%d", sw_ctrl_port[1][i]); 
+	}
+
+	//** Testing
+	printf("In func\n");
+	i=0;
+	while( i < SWNUM+2 ) // argv[0] is file name
+	{
+		printf("%d %s\n", i, argv[i] );
+		i++;
+	}
+	printf("\n");
+	//** End of testing
+
+	pid_t td_pid;
+	td_pid = fork();
+	if( td_pid < 0 )
+	{
+		fprintf(stderr, "Fork tcpdump error\n");
+	}
+	else if( td_pid == 0 )
+	{
+		fprintf(stderr, "tcpdump ports.\n");
+		char * argv2[] = {argv[0], argv[1], argv[2], argv[3], argv[4], argv[5]
+				, argv[6], argv[7], argv[8], argv[9], argv[10], argv[11]
+				, argv[12], argv[13], argv[14], argv[15], argv[16], argv[17]
+				, argv[18], argv[19], argv[20], argv[21], NULL};
+		execve("/usr/bin/sudo", argv2, NULL );
+	}
+	else
+	{
+		wait(NULL);
+		fprintf(stderr, "End of tcpdump\n");
+	}
+ 
 }
 
 
