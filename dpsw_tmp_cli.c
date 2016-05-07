@@ -36,6 +36,8 @@ int main(int argc, char *argv[] )
 		if( ( n = read(sock, temp, 999) ) > 0 )
 		{	
 			printf("%s\n",temp);
+			if( strstr(temp, "filter") != NULL ) ;
+			
 		}
 		if( hello == 0 )
 		{
@@ -54,7 +56,6 @@ int main(int argc, char *argv[] )
 		}
 		if(strstr( temp, "Disconnect") != NULL)
 		{	
-			bzero(temp, 999);
 			char clsConMsg[40];
 			snprintf(clsConMsg, sizeof(clsConMsg), "Client disconnect\n");
 			write(sock, clsConMsg, strlen(clsConMsg));
@@ -62,6 +63,7 @@ int main(int argc, char *argv[] )
 			close(sock);
 			break;
 		}
+		bzero(temp, 1000);
 	}
 	printf("Shutting down client...\n");
 	return 0;
