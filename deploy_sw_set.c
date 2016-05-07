@@ -124,12 +124,12 @@ int main(int argc, char *argv[] )
 						i++;
 						sw_ctrl = strtok( NULL, "," );
 					}
+					printf("\n");
 					bzero(line,999);
 					layer+=2;
 					
 					if( layer == 4 )
 					{
-						
 						hello = 0;
 						//** Implement switch set **
 						char sw_ID_clone[100], l1_ctrl_clone[100], l2_ctrl_clone[100];
@@ -159,7 +159,7 @@ int main(int argc, char *argv[] )
 						//** Monitor sw port  
 						exec_tcpdump(sw_ctrl_port);
 						//** END of monitor sw port
-					
+						printf("After tcpdump\n");
 						//** Set flag to make server write pkt info back
 						sw_set_fin = 1;
 					}
@@ -175,8 +175,7 @@ int main(int argc, char *argv[] )
 					(void) close(fd);
 					FD_CLR(fd, &afds);
 					bzero(line, 999);
-					//** END of disconnect client
-					
+					//** END of disconnect client	
 				}
 				
 					
@@ -188,6 +187,7 @@ int main(int argc, char *argv[] )
 			{
 				if( sw_set_fin == 1 )
 				{
+					printf("In fd write reply_sw_pkt_num\n");
 					can_disconnect = reply_sw_pkt_num( fd, sw_ctrl_port );
 				}
 				if( can_disconnect == 2 )
@@ -294,7 +294,6 @@ void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clo
 		{
 			wait(NULL);
 			//fprintf(stderr,"Finish grep netstat\n");
-			//sleep(1);
 			char input[1000];
 			char *DTIP = "192.168.1.30", *port_inc_str, *port_str;
 			char *pa_bool ;
@@ -311,16 +310,19 @@ void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clo
 			{									//printf("input = %s", input );
 				
 				//** Parse port from doc **
-				port_inc_str = strtok( input, " " );
-				while( port_inc_str != NULL )
+				if( strstr( input, "6633") != NULL )
 				{
-					if( strstr( port_inc_str, DTIP) != NULL )
-					{			
-						there_is_DTIP = 1;				//printf("%s find!\n", port_inc_str );
-						break;
+					port_inc_str = strtok( input, " " );
+					while( port_inc_str != NULL )
+					{
+						if( strstr( port_inc_str, DTIP) != NULL )
+						{			
+							there_is_DTIP = 1;			//printf("%s find!\n", port_inc_str );
+							break;
+						}
+						else
+							port_inc_str = strtok( NULL, " " );
 					}
-					else
-						port_inc_str = strtok( NULL, " " );
 				}								// printf("%s\n", port_inc_str );
 				if( there_is_DTIP == 1 )
 				{
@@ -369,7 +371,38 @@ void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clo
 int reply_sw_pkt_num( int fd, int sw_ctrl_port[][SWNUM] )
 {
 	int data_replied = 2;
-	printf("BlaBlaBla\n");
+	int i;
+	char fname[100]="\0", input[1000]="\0", output[1000]="\0", temp[1000]="\0", *tmp;
+	for( i = 0 ; i < SWNUM ; i++ )
+	{
+		int lpflag=1;
+		sprintf(fname, "./result/%d.txt", sw_ctrl_port[1][i] );
+		FILE *fp = fopen(fname, "r");
+
+		if(fp == NULL)
+		{ 
+			lpflag=0; 
+			printf("Didn't read any file\n"); 
+		}
+		while( lpflag && fgets( input, sizeof(input), fp ) )
+		{	
+			usleep(500);
+			if( strstr(input, "filter") != NULL )
+			{ 
+				tmp = strtok( input, " " );
+				printf("(%d,%s) ", i, tmp );
+				sprintf( temp, "%s,", tmp );
+				strcat( output, temp );
+				bzero( temp, 1000 );
+			}
+			bzero(input , 1000);
+		}
+		fclose(fp);			
+	}
+	strcat( output, "\n\0" );
+	printf("\n%s", output);
+	write( fd, output, strlen(output) );
+
 	return data_replied;
 }
 
