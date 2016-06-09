@@ -1,6 +1,5 @@
 #!/bin/bash
 tcpdump -i eth1 "port $1" > ./gb/gb$1.txt 2> ./result/$1.txt &
-echo $1
 declare -i pid1=$!
 tcpdump -i eth1 "port $2" > ./gb/gb$2.txt 2> ./result/$2.txt &
 declare -i pid2=$!
