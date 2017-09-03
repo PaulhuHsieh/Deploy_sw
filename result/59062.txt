@@ -1,0 +1,5 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth1, link-type EN10MB (Ethernet), capture size 65535 bytes
+949 packets captured
+1274 packets received by filter
+59 packets dropped by kernel

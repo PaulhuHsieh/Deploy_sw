@@ -1,0 +1,821 @@
+18:05:55.055204 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 3579389520, win 2426, options [nop,nop,TS val 349072 ecr 3923602], length 0
+18:05:55.055227 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 1:2897, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x6f), type 0x63, length 24940, xid 0x00000c00 [|openflow]
+18:05:55.055240 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 2897:5793, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x0a), type 0x00, length 32000, xid 0x000000ff [|openflow]
+18:05:55.055250 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 5793:8689, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x00), type 0xfb, length 21097, xid 0xc7f318d1 [|openflow]
+18:05:55.055260 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 8689:11585, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x005069c7 (corrupt)
+18:05:55.055270 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 11585:14481, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x000000fb (corrupt)
+18:05:55.055281 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 14481:17377, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 2896: OpenFlow
+	version unknown (0x02), type 0x00, length 0, xid 0x00000005 (corrupt)
+18:05:55.055291 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 17377:18771, ack 0, win 58, options [nop,nop,TS val 3923615 ecr 349072], length 1394: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.077485 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 17377:18771, ack 0, win 58, options [nop,nop,TS val 3923621 ecr 349072], length 1394: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.083034 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 18771, win 2320, options [nop,nop,TS val 349080 ecr 3923615,nop,nop,sack 1 {17377:18771}], length 0
+18:05:55.090621 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 18771:18896, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.090639 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 18896:19021, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091020 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 18896, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091036 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19021, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091237 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19021:19146, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091252 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19146:19271, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091266 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19271:19396, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091279 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19396:19521, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091292 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19521:19646, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091306 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19646:19771, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091349 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19771:19896, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091368 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 19896:20021, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091381 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20021:20146, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091394 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20146:20271, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091408 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20271:20396, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091434 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20396:20521, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091447 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20521:20646, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091461 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20646:20771, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091474 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20771:20896, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091488 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 20896:21021, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349080], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.091583 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19146, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091595 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19271, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091604 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19396, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091612 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19521, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091773 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 21021:23917, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349081], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.091791 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19646, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091803 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19771, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091812 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 23917:26813, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349081], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.091825 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 19896, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091834 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20021, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091842 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 26813:29709, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349081], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00005069 (corrupt)
+18:05:55.091854 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20146, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091863 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20271, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091871 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 29709:32605, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349081], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.091883 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20396, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091893 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20521, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.091901 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 32605:35501, ack 0, win 58, options [nop,nop,TS val 3923624 ecr 349081], length 2896: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x00000000 (corrupt)
+18:05:55.093024 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 20646, win 2320, options [nop,nop,TS val 349081 ecr 3923624], length 0
+18:05:55.125638 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 35501, win 2204, options [nop,nop,TS val 349091 ecr 3923624], length 0
+18:05:55.126145 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 35501:38397, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x6f), type 0x63, length 24940, xid 0x00000c00 [|openflow]
+18:05:55.126158 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 38397:41293, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x0a), type 0x00, length 32000, xid 0x000000ff [|openflow]
+18:05:55.126167 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 41293:44189, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x00), type 0xfb, length 21097, xid 0xc7f318d1 [|openflow]
+18:05:55.126177 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 44189:47085, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x005069c7 (corrupt)
+18:05:55.126185 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 47085:49981, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x000000fb (corrupt)
+18:05:55.126195 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 49981:52877, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x02), type 0x00, length 0, xid 0x00000005 (corrupt)
+18:05:55.126204 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 52877:55773, ack 0, win 58, options [nop,nop,TS val 3923633 ecr 349091], length 2896: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.141957 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 55773:57221, ack 0, win 58, options [nop,nop,TS val 3923637 ecr 349091], length 1448: OpenFlow
+	version unknown (0x00), type 0x7d, length 0, xid 0x0000ffff (corrupt)
+18:05:55.165545 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 57221, win 2089, options [nop,nop,TS val 349101 ecr 3923633], length 0
+18:05:55.165773 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 57221:57771, ack 0, win 58, options [nop,nop,TS val 3923643 ecr 349101], length 550: OpenFlow
+	version unknown (0xe9), type 0x00, length 13733, xid 0x8a000000 [|openflow]
+18:05:55.174634 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 57771, win 2814, options [nop,nop,TS val 349102 ecr 3923643], length 0
+18:05:55.217929 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 57771:57896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.217970 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 57896:58021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218009 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58021:58146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218046 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58146:58271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218073 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58271:58396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218092 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58396:58521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218114 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58521:58646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218132 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58646:58771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218159 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58771:58896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218181 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 58896:59021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218201 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 59021:59146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218222 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 59146:59271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218243 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 59271:59396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.218263 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 59396:59521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349102], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219354 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 59146, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219374 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 59521:62417, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.219385 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 62417:65313, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.219395 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 65313:68209, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00005069 (corrupt)
+18:05:55.219404 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 68209:68896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 687: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.219417 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 68896:69021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219437 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 59521, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219469 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69021:69146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219512 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69146:69271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219535 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69271:69396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219556 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69396:69521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219591 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69521:69646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219630 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69646:69771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219661 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 68896, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219675 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69771:69896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219685 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 69021, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219686 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 69896:70021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219728 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70021:70146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219765 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 69271, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219766 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70146:70271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219810 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70271:70396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219857 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70396:70521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219884 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70521:70646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219922 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70646:70771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219951 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70771:70896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219973 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 70896:71021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.219975 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 70146, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.219992 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71021:71146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220004 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 70396, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.220013 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71146:71271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220032 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71271:71396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220053 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71396:71521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220074 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71521:71646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220094 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71646:71771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220129 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71771:71896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220159 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 71896:72021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220181 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72021:72146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220217 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 71396, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.220230 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72146:72271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220242 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72271:72396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220263 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72396:72521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220285 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72521:72646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220305 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72646:72771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220326 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72771:72896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220355 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 72896:73021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220379 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 72146, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.220392 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73021:73146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220424 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73146:73271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220451 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73271:73396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220482 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73396:73521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220510 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73521:73646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220531 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73646:73771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220552 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73771:73896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220645 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 72896, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.220660 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 73896:74771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 875: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220670 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 74771:74896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220689 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 74896:75021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220707 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 75021:75146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220728 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 75146:75271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.220749 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 75271:75396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221121 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 74771, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.221139 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 75396:78292, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.221150 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 78292:79021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 729: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.221159 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79021:79146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221171 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 75396, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.221178 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79146:79271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221218 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79271:79396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221242 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79396:79521, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221263 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79521:79646, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221283 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79646:79771, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221304 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79771:79896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221330 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 79896:80021, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221358 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 80021:80146, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221380 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 80146:80271, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221404 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 80271:80396, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221453 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 79021, win 2814, options [nop,nop,TS val 349114 ecr 3923656], length 0
+18:05:55.221466 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 80396:80896, ack 0, win 58, options [nop,nop,TS val 3923656 ecr 349114], length 500: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221491 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 80896:81021, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221526 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 81021:81146, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349114], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221711 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 80896, win 2814, options [nop,nop,TS val 349115 ecr 3923656], length 0
+18:05:55.221726 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 81146:82594, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 1448: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.221737 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 82594:82771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 177: OpenFlow
+	version unknown (0xe9), type 0x14, length 59648, xid 0x35a58a00 [|openflow]
+18:05:55.221746 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 82771:82896, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221765 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 82896:83021, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221782 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83021:83146, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221806 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83146:83271, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221825 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83271:83396, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221845 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83396:83521, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221876 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83521:83646, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221896 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83646:83771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221914 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83771:83896, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.221932 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 83896:84021, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222286 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 83896, win 2791, options [nop,nop,TS val 349115 ecr 3923657], length 0
+18:05:55.222301 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 84021:85469, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 1448: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.222312 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 85469:86771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 1302: OpenFlow
+	version unknown (0xe9), type 0x14, length 59648, xid 0x35a58a00 [|openflow]
+18:05:55.222325 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 86771:86896, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222361 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 86896:87021, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222391 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87021:87146, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222420 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87146:87271, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222450 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87271:87396, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222480 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87396:87521, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222511 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87521:87646, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222542 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87646:87771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222562 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 86771, win 2814, options [nop,nop,TS val 349115 ecr 3923657], length 0
+18:05:55.222573 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 87021, win 2814, options [nop,nop,TS val 349115 ecr 3923657], length 0
+18:05:55.222577 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87771:87896, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222614 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 87896:88021, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222673 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88021:88146, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222707 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88146:88271, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222737 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88271:88396, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222769 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88396:88521, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222799 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88521:88646, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222831 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88646:88771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222909 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 87771, win 2814, options [nop,nop,TS val 349115 ecr 3923657], length 0
+18:05:55.222925 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 88771:89271, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 500: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222947 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 89271:89396, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.222976 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 89396:89521, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.223005 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 89521:89646, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.223034 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 89646:89771, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.223075 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 89771:89896, ack 0, win 58, options [nop,nop,TS val 3923657 ecr 349115], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.225796 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 89271, win 2814, options [nop,nop,TS val 349116 ecr 3923657], length 0
+18:05:55.225818 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 89896:92792, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.225830 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 92792:95688, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.225840 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 95688:98584, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00005069 (corrupt)
+18:05:55.225849 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 98584:101480, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.228113 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 101480, win 2814, options [nop,nop,TS val 349116 ecr 3923657], length 0
+18:05:55.228139 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 101480:104376, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x00000000 (corrupt)
+18:05:55.228148 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 104376:107272, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x6f), type 0x63, length 24940, xid 0x00000c00 [|openflow]
+18:05:55.228158 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 107272:110168, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x0a), type 0x00, length 32000, xid 0x000000ff [|openflow]
+18:05:55.228167 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 110168:113064, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0xfb, length 21097, xid 0xc7f318d1 [|openflow]
+18:05:55.228176 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 113064:115960, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x005069c7 (corrupt)
+18:05:55.228185 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 115960:118856, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x000000fb (corrupt)
+18:05:55.228195 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 118856:121752, ack 0, win 58, options [nop,nop,TS val 3923658 ecr 349116], length 2896: OpenFlow
+	version unknown (0x02), type 0x00, length 0, xid 0x00000005 (corrupt)
+18:05:55.235949 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 121752, win 2814, options [nop,nop,TS val 349118 ecr 3923658], length 0
+18:05:55.236239 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 121752:124648, ack 0, win 58, options [nop,nop,TS val 3923660 ecr 349118], length 2896: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.236254 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 124648:127544, ack 0, win 58, options [nop,nop,TS val 3923660 ecr 349118], length 2896: OpenFlow
+	version unknown (0x00), type 0x7d, length 0, xid 0x0000ffff (corrupt)
+18:05:55.236269 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 127544:130440, ack 0, win 58, options [nop,nop,TS val 3923660 ecr 349118], length 2896: OpenFlow
+	version unknown (0xfb), type 0x52, length 27079, xid 0xf318d186 [|openflow]
+18:05:55.236282 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 130440:131888, ack 0, win 58, options [nop,nop,TS val 3923660 ecr 349118], length 1448: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x5069c7ff (corrupt)
+18:05:55.236295 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 131888:132771, ack 0, win 58, options [nop,nop,TS val 3923660 ecr 349118], length 883: OpenFlow
+	version unknown (0x70), type 0x70, length 49170, xid 0x000c0001 [|openflow]
+18:05:55.236463 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 128992, win 2814, options [nop,nop,TS val 349118 ecr 3923660], length 0
+18:05:55.236475 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 132771, win 2814, options [nop,nop,TS val 349118 ecr 3923660], length 0
+18:05:55.457116 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 132771:132896, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457148 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 132896:133021, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457169 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133021:133146, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457190 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133146:133271, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457211 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133271:133396, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457231 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133396:133521, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457262 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133521:133646, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457285 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133646:133771, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457305 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133771:133896, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457534 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 133896:134021, ack 0, win 58, options [nop,nop,TS val 3923715 ecr 349118], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457817 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 132896, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457834 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134021:134146, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.457845 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133021, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457854 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133146, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457861 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133271, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457868 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133396, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457876 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133521, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457883 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133646, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457890 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133771, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457897 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 133896, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.457904 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134021, win 2814, options [nop,nop,TS val 349174 ecr 3923715], length 0
+18:05:55.459543 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134146:134271, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459579 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134271:134396, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459601 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134396:134521, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459622 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134521:134646, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459643 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134646:134771, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459663 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134771:134896, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459693 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 134896:135021, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459728 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135021:135146, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459763 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134146, win 2814, options [nop,nop,TS val 349174 ecr 3923716], length 0
+18:05:55.459769 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135146:135271, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459828 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135271:135396, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459863 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135396:135521, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459900 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135521:135646, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459921 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135646:135771, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.459944 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 135771:135896, ack 0, win 58, options [nop,nop,TS val 3923716 ecr 349174], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.464767 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134271, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.464777 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134396, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.464783 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 135896:138792, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.464791 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134521, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.464797 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134646, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.464802 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 138792:141688, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.464809 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 134771, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.464815 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 141688:144584, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00005069 (corrupt)
+18:05:55.465096 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 135896, win 2814, options [nop,nop,TS val 349175 ecr 3923716], length 0
+18:05:55.465112 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 144584, win 2814, options [nop,nop,TS val 349175 ecr 3923717], length 0
+18:05:55.465290 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 144584:147480, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.465301 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 147480:150376, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x00000000 (corrupt)
+18:05:55.465307 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 150376:153272, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x6f), type 0x63, length 24940, xid 0x00000c00 [|openflow]
+18:05:55.465317 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 153272:156168, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x0a), type 0x00, length 32000, xid 0x000000ff [|openflow]
+18:05:55.465328 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 156168:159064, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0xfb, length 21097, xid 0xc7f318d1 [|openflow]
+18:05:55.465337 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 159064:161960, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x005069c7 (corrupt)
+18:05:55.465620 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 161960:164856, ack 0, win 58, options [nop,nop,TS val 3923717 ecr 349175], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x000000fb (corrupt)
+18:05:55.469040 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 164856, win 2770, options [nop,nop,TS val 349176 ecr 3923717], length 0
+18:05:55.469252 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 164856:167752, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x02), type 0x00, length 0, xid 0x00000005 (corrupt)
+18:05:55.469283 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 167752:170648, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.469301 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 170648:173544, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x00), type 0x7d, length 0, xid 0x0000ffff (corrupt)
+18:05:55.469311 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 173544:176440, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0xfb), type 0x52, length 27079, xid 0xf318d186 [|openflow]
+18:05:55.469327 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 176440:179336, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x5069c7ff (corrupt)
+18:05:55.469350 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 179336:182232, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x0000fb14 (corrupt)
+18:05:55.469365 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 182232:185128, ack 0, win 58, options [nop,nop,TS val 3923718 ecr 349176], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x0000055f (corrupt)
+18:05:55.470872 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 185128, win 2770, options [nop,nop,TS val 349177 ecr 3923718], length 0
+18:05:55.470892 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 185128:188024, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x61), type 0x6c, length 0, xid 0x0c000104 (corrupt)
+18:05:55.470902 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 188024:190920, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x7d), type 0x00, length 0, xid 0x00ffffff (corrupt)
+18:05:55.470909 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 190920:193816, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x52), type 0x69, length 51187, xid 0x18d186dd [|openflow]
+18:05:55.470917 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 193816:196712, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 80, xid 0x69c7fffe
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.470924 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 196712:199608, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00fb14e9 (corrupt)
+18:05:55.470931 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 199608:202504, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00055f69 (corrupt)
+18:05:55.470938 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 202504:205400, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x6c), type 0x00, length 12, xid 0x0001045f
+	version unknown (0x12), type 0x00, length 3072, xid 0x01010a00 [|openflow]
+18:05:55.471936 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 205400, win 2770, options [nop,nop,TS val 349177 ecr 3923719], length 0
+18:05:55.471944 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 205400:208296, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0xffffffff (corrupt)
+18:05:55.472038 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 208296:211192, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x69), type 0xc7, length 62232, xid 0xd186dd60 [|openflow]
+18:05:55.472046 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 211192:214088, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 20585, xid 0xc7fffef3 [|openflow]
+18:05:55.472053 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 214088:216984, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0xfb14e914 (corrupt)
+18:05:55.472059 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 216984:219880, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x055f6970 (corrupt)
+18:05:55.472066 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 219880:222776, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 3072, xid 0x01045f69 [|openflow]
+18:05:55.472074 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 222776:225672, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 255, xid 0xffffff00
+	version unknown (0xff), type 0xff, length 107, xid 0x00030100
+	version unknown (0x70), type 0x70, length 49170, xid 0x000c0001 [|openflow]
+18:05:55.472108 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 208296, win 2814, options [nop,nop,TS val 349177 ecr 3923719], length 0
+18:05:55.472113 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 225672:228568, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0xc7), type 0xf3, length 6353, xid 0x86dd6000 [|openflow]
+18:05:55.472145 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 211192, win 2814, options [nop,nop,TS val 349177 ecr 3923719], length 0
+18:05:55.472170 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 228568:231464, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x50, length 27079, xid 0xfffef318 [|openflow]
+18:05:55.472366 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 228568, win 2814, options [nop,nop,TS val 349177 ecr 3923719], length 0
+18:05:55.472380 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 231464:234360, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 251, xid 0x14e914e9
+	version unknown (0x00), type 0x00, length 64276, xid 0xe914e900 [|openflow]
+18:05:55.472390 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 234360:237256, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 5, xid 0x5f697070 (corrupt)
+18:05:55.472395 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 231464, win 2814, options [nop,nop,TS val 349177 ecr 3923719], length 0
+18:05:55.472399 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 237256:240152, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x0c, length 1, xid 0x045f6970 (corrupt)
+18:05:55.472417 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 240152:243048, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 65535, xid 0xffff006b [|openflow]
+18:05:55.472424 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 243048:245944, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0xf3), type 0x18, length 53638, xid 0xdd600000 [|openflow]
+18:05:55.472433 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 245944:248840, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x50), type 0x69, length 51199, xid 0xfef318d1 [|openflow]
+18:05:55.472453 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 248840:251736, ack 0, win 58, options [nop,nop,TS val 3923719 ecr 349177], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64276, xid 0xe914e900 [|openflow]
+18:05:55.490216 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 251736, win 2814, options [nop,nop,TS val 349182 ecr 3923719], length 0
+18:05:55.490242 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 251736:254632, ack 0, win 58, options [nop,nop,TS val 3923724 ecr 349182], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 1375, xid 0x69707073
+	version unknown (0x00), type 0x00, length 1375, xid 0x69707073
+	version unknown (0x00), type 0x00, length 1375, xid 0x69707073 [|openflow]
+18:05:55.490271 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 254632:256080, ack 0, win 58, options [nop,nop,TS val 3923724 ecr 349182], length 1448: OpenFlow
+	version unknown (0x0c), type 0x00, length 260, xid 0x5f697070
+	version unknown (0x00), type 0x0c, length 1, xid 0x010a007d (corrupt)
+18:05:55.490306 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 256080:256521, ack 0, win 58, options [nop,nop,TS val 3923724 ecr 349182], length 441: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.491867 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 256521, win 2814, options [nop,nop,TS val 349182 ecr 3923724], length 0
+18:05:55.716129 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 256521:256646, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716186 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 256646:256771, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716222 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 256771:256896, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716257 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 256896:257021, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716292 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257021:257146, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716328 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257146:257271, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716394 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257271:257396, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716656 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257396:257521, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716881 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257521:257646, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.716927 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [P.], seq 257646:257771, ack 0, win 58, options [nop,nop,TS val 3923780 ecr 349182], length 125: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+18:05:55.721047 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 256646, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721062 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 257771:260667, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000
+	version 1.0, type PACKET_IN, length 125, xid 0x00000000 [|openflow]
+18:05:55.721073 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 256771, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721082 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 260667:263563, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 64338, xid 0x69c7f318 [|openflow]
+18:05:55.721093 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 256896, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721101 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 263563:266459, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00005069 (corrupt)
+18:05:55.721112 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257021, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721122 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 266459:269355, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+18:05:55.721133 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257146, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721142 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257271, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721149 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 269355:272251, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x00000000 (corrupt)
+18:05:55.721160 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257396, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721168 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 272251:275147, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x6f), type 0x63, length 24940, xid 0x00000c00 [|openflow]
+18:05:55.721179 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257521, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721189 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257646, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721197 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 275147:278043, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x0a), type 0x00, length 32000, xid 0x000000ff [|openflow]
+18:05:55.721225 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 257771, win 2814, options [nop,nop,TS val 349239 ecr 3923780], length 0
+18:05:55.721240 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 272251, win 2800, options [nop,nop,TS val 349239 ecr 3923781], length 0
+18:05:55.721354 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 278043:280939, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0xfb, length 21097, xid 0xc7f318d1 [|openflow]
+18:05:55.721366 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 280939:283835, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x005069c7 (corrupt)
+18:05:55.721376 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 283835:286731, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x000000fb (corrupt)
+18:05:55.721387 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 286731:289627, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x02), type 0x00, length 0, xid 0x00000005 (corrupt)
+18:05:55.721396 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 289627:292523, ack 0, win 58, options [nop,nop,TS val 3923781 ecr 349239], length 2896: OpenFlow
+	version unknown (0x63), type 0x61, length 27648, xid 0x000c0001 [|openflow]
+18:05:55.724074 IP 192.168.1.10.6633 > 192.168.1.30.41324: Flags [.], ack 292523, win 2770, options [nop,nop,TS val 349240 ecr 3923781], length 0
+18:05:55.724094 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 292523:295419, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0x00), type 0x7d, length 0, xid 0x0000ffff (corrupt)
+18:05:55.724106 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 295419:298315, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0xfb), type 0x52, length 27079, xid 0xf318d186 [|openflow]
+18:05:55.724117 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 298315:301211, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x5069c7ff (corrupt)
+18:05:55.724126 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 301211:304107, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x0000fb14 (corrupt)
+18:05:55.724135 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 304107:307003, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x0000055f (corrupt)
+18:05:55.724145 IP 192.168.1.30.41324 > 192.168.1.10.6633: Flags [.], seq 307003:309899, ack 0, win 58, options [nop,nop,TS val 3923782 ecr 349240], length 2896: OpenFlow
+	version unknown (0x61), type 0x6c, length 0, xid 0x0c000104 (corrupt)
+

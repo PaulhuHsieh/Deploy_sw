@@ -321,6 +321,7 @@ void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clo
 	pid_t set_c1_pid, netstat_pid;
 
 	set_c1_pid = fork();
+
 	if ( set_c1_pid < 0 )
 	{
 		fprintf(stderr,"Error in set-controller\n");
@@ -423,6 +424,7 @@ void implement_sw(int i, char *sw_ID_clone, char *ctrl_clone,  char *l2_ctrl_clo
 					if( has_same == 0 )
 					{
 						sw_ctrl_port[layer][i] = port;
+  						printf("hello %d \n",port);
 						break;
 					}
 				}
